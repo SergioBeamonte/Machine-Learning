@@ -1,0 +1,88 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46'}
+@attribute Key_Run {1,2,3}
+@attribute Key_Fold {1,2,3,4,5}
+@attribute Key_Scheme {weka.classifiers.meta.Bagging}
+@attribute Key_Scheme_options {'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0'}
+@attribute Key_Scheme_version_ID {-115879962237199703}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Matthews_correlation numeric
+@attribute Area_under_ROC numeric
+@attribute Area_under_PRC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_matthews_correlation numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Weighted_avg_area_under_PRC numeric
+@attribute Unweighted_macro_avg_F_measure numeric
+@attribute Unweighted_micro_avg_F_measure numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute UserCPU_Time_millis_training numeric
+@attribute UserCPU_Time_millis_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Coverage_of_Test_Cases_By_Regions numeric
+@attribute Size_of_Predicted_Regions numeric
+@attribute Summary string
+@attribute measureOutOfBagError numeric
+
+@data
+
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',1,1,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1841,1198,300,95,205,0,31.666667,68.333333,0,0.104621,0.286969,0.397145,93.32897,101.287406,660.315921,822.02518,-161.709259,2.201053,2.740084,-0.539031,111.801247,0.372671,16.931478,0.219512,9,0.088803,23,0.911197,236,0.780488,32,0.28125,0.219512,0.246575,0.145447,0.708541,0.289896,0.316667,0.21279,0.78721,0.683333,0.312797,0.316667,0.31353,0.104861,0.616998,0.328639,0.2876,0.316667,29.57,0.032,11.65625,0.015625,11656.25,15.625,12045845,200151,51981,91.666667,75.866667,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',1,2,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1841,1198,300,99,201,0,33,67,0,0.116742,0.281212,0.389492,91.456744,99.335491,660.315921,675.488099,-15.172177,2.201053,2.251627,-0.050574,124.567327,0.415224,18.864808,0.341463,14,0.081081,21,0.918919,238,0.658537,27,0.4,0.341463,0.368421,0.27861,0.744326,0.391945,0.33,0.21814,0.78186,0.67,0.327497,0.33,0.32693,0.115459,0.651163,0.343698,0.30863,0.33,22.666,0.002,12.046875,0,12046.875,0,12198224,200151,51981,94,75.666667,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',1,3,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1842,1198,300,90,210,0,30,70,0,0.083303,0.285203,0.393827,92.741537,100.422435,660.580234,749.514093,-88.933859,2.201934,2.49838,-0.296446,114.046985,0.380157,17.264668,0.341463,14,0.123552,32,0.876448,227,0.658537,27,0.304348,0.341463,0.321839,0.207743,0.747434,0.317265,0.3,0.2231,0.7769,0.7,0.30274,0.3,0.299423,0.080448,0.625283,0.341026,0.296444,0.3,33.819,0.022,11.03125,0,11031.25,0,11001674,200151,51981,93.333333,75.666667,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',1,4,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1843,1199,299,112,187,0,37.458194,62.541806,0,0.176988,0.279053,0.3854,90.770064,98.314353,657.702014,726.601195,-68.899181,2.199672,2.430104,-0.230432,130.951644,0.437965,19.910482,0.375,15,0.123552,32,0.876448,227,0.625,25,0.319149,0.375,0.344828,0.235168,0.741892,0.380715,0.374582,0.200744,0.799256,0.625418,0.371197,0.374582,0.367128,0.176492,0.660961,0.370152,0.339555,0.374582,41.375,0.013,13.765625,0,13765.625,0,12571528,200316,51816,93.311037,75.919732,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',1,5,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1843,1199,299,100,199,0,33.444816,66.555184,0,0.114371,0.283843,0.394803,92.35461,100.75172,657.203496,776.320086,-119.11659,2.198005,2.596388,-0.398383,116.114218,0.388342,17.667925,0.15,6,0.07722,20,0.92278,239,0.85,34,0.230769,0.15,0.181818,0.087927,0.691602,0.26412,0.334448,0.22196,0.77804,0.665552,0.326767,0.334448,0.325636,0.11656,0.624571,0.336418,0.296045,0.334448,31.67,0.022,14.15625,0,14156.25,0,12380083,200316,51816,90.301003,74.983278,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',2,1,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1844,1198,300,105,195,0,35,65,0,0.148509,0.278595,0.386155,90.592854,98.465995,660.580234,748.092604,-87.512369,2.201934,2.493642,-0.291708,132.753314,0.442511,20.096471,0.341463,14,0.096525,25,0.903475,234,0.658537,27,0.358974,0.341463,0.35,0.250176,0.777569,0.325964,0.35,0.205944,0.794056,0.65,0.348028,0.35,0.348309,0.145962,0.660198,0.37385,0.333866,0.35,37.856,0.022,16.71875,0,16718.75,0,11470792,200151,51981,94.333333,76.266667,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',2,2,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1845,1198,300,96,204,0,32,68,0,0.10177,0.284483,0.395264,92.507497,100.788892,660.580234,795.86057,-135.280336,2.201934,2.652869,-0.450934,117.928776,0.393096,17.852302,0.365854,15,0.111969,29,0.888031,230,0.634146,26,0.340909,0.365854,0.352941,0.246508,0.699313,0.332326,0.32,0.223725,0.776275,0.68,0.311528,0.32,0.311037,0.097502,0.623724,0.33843,0.2906,0.32,45.258,0.017,15.828125,0,15828.125,0,10667922,200151,51981,92.666667,76.866667,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',2,3,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1845,1198,300,103,197,0,34.333333,65.666667,0,0.134015,0.283761,0.391515,92.335839,99.924075,659.159136,653.875012,5.284124,2.197197,2.179583,0.017614,116.2385,0.387462,17.634361,0.225,9,0.080769,21,0.919231,239,0.775,31,0.3,0.225,0.257143,0.16343,0.739231,0.324455,0.343333,0.213694,0.786306,0.656667,0.341433,0.343333,0.340065,0.133041,0.634697,0.339785,0.323294,0.343333,31.838,0.021,9.546875,0,9546.875,0,12153088,200151,51981,94.333333,78.133333,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',2,4,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1846,1199,299,98,201,0,32.77592,67.22408,0,0.11293,0.284304,0.393507,92.49113,100.401204,657.4377,714.5701,-57.1324,2.198788,2.389867,-0.191078,113.827711,0.380695,17.31384,0.25,10,0.073359,19,0.926641,240,0.75,30,0.344828,0.25,0.289855,0.203184,0.746911,0.349065,0.327759,0.217688,0.782312,0.672241,0.323479,0.327759,0.323501,0.112973,0.631168,0.341199,0.29737,0.327759,39.261,0.009,22.71875,0,22718.75,0,12112995,200316,51816,93.645485,75.719064,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',2,5,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1846,1199,299,94,205,0,31.438127,68.561873,0,0.098788,0.289206,0.39785,94.048454,101.45545,658.360281,802.704705,-144.344424,2.201874,2.684631,-0.482757,103.750163,0.346991,15.758873,0.268293,11,0.116279,30,0.883721,228,0.731707,30,0.268293,0.268293,0.268293,0.152014,0.658915,0.22937,0.314381,0.21927,0.78073,0.685619,0.314743,0.314381,0.312199,0.098951,0.612384,0.308508,0.295278,0.314381,32.218,0.01,13.890625,0,13890.625,0,11635700,200316,51816,91.304348,75.250836,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',3,1,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1847,1198,300,92,208,0,30.666667,69.333333,0,0.078395,0.286266,0.394155,93.114036,100.544571,660.081717,791.97471,-131.892993,2.200272,2.639916,-0.439643,112.996359,0.376655,17.118541,0.341463,14,0.088803,23,0.911197,236,0.658537,27,0.378378,0.341463,0.358974,0.263937,0.755344,0.379481,0.306667,0.238183,0.761817,0.693333,0.312288,0.306667,0.303521,0.077544,0.6161,0.327899,0.295971,0.306667,27.399,0.011,14.046875,0.015625,14046.875,15.625,11330820,200151,51981,93.333333,76.6,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',3,2,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1847,1198,300,98,202,0,32.666667,67.333333,0,0.112205,0.282933,0.391439,92.003401,99.813454,660.580234,726.648333,-66.068099,2.201934,2.422161,-0.220227,126.103597,0.420345,19.089823,0.243902,10,0.081081,21,0.918919,238,0.756098,31,0.322581,0.243902,0.277778,0.183737,0.723891,0.328705,0.326667,0.220571,0.779429,0.673333,0.327019,0.326667,0.324714,0.111249,0.636826,0.338602,0.316549,0.326667,36.113,0.012,13.203125,0,13203.125,0,12631139,200151,51981,94.333333,75.666667,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',3,3,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1848,1198,300,94,206,0,31.333333,68.666667,0,0.083358,0.284803,0.397928,92.611355,101.468049,660.580234,718.194556,-57.614322,2.201934,2.393982,-0.192048,114.408955,0.381363,17.319464,0.146341,6,0.081081,21,0.918919,238,0.853659,35,0.222222,0.146341,0.176471,0.07833,0.6882,0.249603,0.313333,0.234413,0.765587,0.686667,0.312407,0.313333,0.304304,0.08698,0.618934,0.329769,0.28346,0.313333,33.55,0.027,10.828125,0,10828.125,0,13364757,200151,51981,91.333333,75.133333,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',3,4,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1849,1199,299,99,200,0,33.110368,66.889632,0,0.11906,0.287222,0.394885,93.440261,100.752788,657.4377,723.275624,-65.837923,2.198788,2.418982,-0.220194,106.515613,0.35624,16.201628,0.3,12,0.111969,29,0.888031,230,0.7,28,0.292683,0.3,0.296296,0.186083,0.696236,0.301237,0.331104,0.214894,0.785106,0.668896,0.323446,0.331104,0.324751,0.117085,0.622102,0.329295,0.307097,0.331104,41.932,0.005,13.078125,0,13078.125,0,10891571,200316,51816,92.976589,77.792642,?,-1
+'train_main_financial_metrics-weka.filters.unsupervised.attribute.Remove-R45-weka.filters.unsupervised.attribute.NumericToNominal-R2-4,46,48-weka.filters.unsupervised.attribute.Remove-R3-9,11,14-19,23-27,30-33,36,38,40-41,43-46',3,5,weka.classifiers.meta.Bagging,'-P 100 -S 1 -num-slots 1 -I 25 -W weka.classifiers.trees.LMT -- -I -1 -M 15 -W 0.0',-115879962237199703,20251031.1849,1199,299,103,196,0,34.448161,65.551839,0,0.136831,0.281343,0.390051,91.527681,99.519356,657.4377,746.835717,-89.398016,2.198788,2.497778,-0.29899,124.86754,0.417617,18.99306,0.275,11,0.07722,20,0.92278,239,0.725,29,0.354839,0.275,0.309859,0.220858,0.781757,0.344161,0.344482,0.212633,0.787367,0.655518,0.343448,0.344482,0.341665,0.135556,0.646961,0.357653,0.323248,0.344482,36.132,0.012,11.5625,0,11562.5,0,12125357,200316,51816,91.973244,74.648829,?,-1

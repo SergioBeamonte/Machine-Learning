@@ -22,7 +22,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -39,7 +39,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -61,7 +61,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -86,7 +86,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -118,7 +118,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -159,7 +159,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -188,7 +188,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -210,7 +210,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -241,7 +241,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -276,7 +276,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
@@ -313,7 +313,7 @@
          <object class="boolean" name="debug" primitive="yes">false</object>
          <object array="yes" class="java.lang.String" name="options">
             <object class="java.lang.String" name="0">-F</object>
-            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 5 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 5 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 5 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 5 -P 210.0 -S 1&quot; -S 1</object>
+            <object class="java.lang.String" name="1">weka.filters.MultiFilter -F &quot;weka.filters.supervised.instance.SMOTE -C 2 -K 15 -P 10.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 4 -K 15 -P 30.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 1 -K 15 -P 100.0 -S 1&quot; -F &quot;weka.filters.supervised.instance.SMOTE -C 5 -K 15 -P 210.0 -S 1&quot; -S 1</object>
             <object class="java.lang.String" name="2">-S</object>
             <object class="java.lang.String" name="3">1</object>
             <object class="java.lang.String" name="4">-W</object>
